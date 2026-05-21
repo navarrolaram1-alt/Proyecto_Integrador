@@ -146,4 +146,20 @@ main {
   border: 2px solid #5B3B1E;
   border-radius: 30px; 
   margin-bottom: 50px;
+}.tarjeta-interna {
+  padding: 25px;
+  border: 2px solid #5B3B1E;
+  border-radius: 16px; 
+  flex: 1;
 }
+
+.m-bottom {
+  margin-bottom: 20px;
+}
+
+.variante-1 { background-color: #EAE1CB; }
+.variante-2 { background-color: #BC5727; }
+.variante-3 { background-color: #979E6C; }
+
+.variante-2 h3, .variante-2 p { color: #FDFAF4; }
+.variante-3 h3, .variante-3 li { color: #3A2410; }
