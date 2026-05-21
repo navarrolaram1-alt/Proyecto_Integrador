@@ -49,3 +49,101 @@ a {
 a:hover { 
   opacity: 0.75; 
 }
+ul, ol { 
+  padding-left: 1.4rem; 
+  color: #7A6A55; 
+  font-weight: 300; 
+  margin-bottom: 1rem;
+}
+
+li { 
+  margin-bottom: 0.4rem; 
+}
+
+header {
+  background-color: #5B3B1E; 
+  border-bottom: 2px solid #5B3B1E;
+  padding: 30px 5%;
+  text-align: center;
+}
+
+header h1 {
+  color: #FDFAF4; 
+  font-size: 35px;
+  letter-spacing: 0.08em;
+}
+
+.hero {
+  padding: 60px 5% 30px;
+  text-align: center;
+}
+
+.hero-tagline {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #7A6A55;
+  margin-bottom: 40px;
+}
+
+.grilla-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 15px;
+  text-decoration: none;
+  border: 2px solid #5B3B1E;
+  border-radius: 20px; 
+  transition: transform 0.15s, box-shadow 0.15s;
+  cursor: pointer;
+  gap: 10px;
+  box-shadow: 4px 4px 0px #5B3B1E; 
+}
+
+.tarjeta:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #5B3B1E;
+}
+
+.tarjeta-1 { background-color: #BC5727; } 
+.tarjeta-2 { background-color: #D2A432; } 
+.tarjeta-3 { background-color: #979E6C; } 
+.tarjeta-4 { background-color: #D18E97; } 
+
+.tarjeta span {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FDFAF4;
+}
+
+.tarjeta-icono {
+  font-size: 18px;
+  color: #FDFAF4;
+  opacity: 0.9;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 5% 60px;
+}
+
+.bloque {
+  background-color: #FDFAF4; 
+  padding: 40px;
+  border: 2px solid #5B3B1E;
+  border-radius: 30px; 
+  margin-bottom: 50px;
+}
