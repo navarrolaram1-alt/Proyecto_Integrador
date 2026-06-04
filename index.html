@@ -14,52 +14,43 @@
             <h1>Lara Navarro</h1>
             <p class="hero-tagline">Desarrolladora full stack en formación</p>
         </div>
-
-        <nav class="grilla-tarjetas" aria-label="Navegación principal">
-            <a href="#sobre" class="tarjeta tarjeta-1" aria-label="Ir a Sobre mí">
-                <span>Sobre mí</span>
-            </a>
-
-            <a href="#formacion" class="tarjeta tarjeta-2" aria-label="Ir a Formación">
-                <span>Formación</span>
-            </a>
-
-            <a href="#proyectos" class="tarjeta tarjeta-3" aria-label="Ir a Proyectos">
-                <span>Proyectos</span>
-            </a>
-
-            <a href="contacto.html" class="tarjeta tarjeta-4" aria-label="Ir a Contacto">
-                <span>Contacto</span>
-            </a>
-        </nav>
     </header>
 
+    <nav class="grilla-tarjetas" aria-label="Navegación principal">
+        <a href="#sobre" class="tarjeta tarjeta-1" aria-label="Ir a Sobre mí">
+            <span>Sobre mí</span>
+        </a>
+        <a href="#formacion" class="tarjeta tarjeta-2" aria-label="Ir a Formación">
+            <span>Formación</span>
+        </a>
+        <a href="#proyectos" class="tarjeta tarjeta-3" aria-label="Ir a Proyectos">
+            <span>Proyectos</span>
+        </a>
+        <a href="contacto.html" class="tarjeta tarjeta-4" aria-label="Ir a Contacto">
+            <span>Contacto</span>
+        </a>
+    </nav>
+  
     <main>
         <section id="sobre" class="bloque">
             <h2>Sobre mí</h2>
-
             <div class="contenido-flex">
                 <article class="tarjeta-interna variante-1">
                     <p>
                         Soy desarrolladora en formación con orientación al desarrollo full stack, con interés tanto en el diseño de interfaces como en la lógica y estructura de aplicaciones. Me interesa construir soluciones funcionales y claras, así como profundizar en el manejo de bases de datos y la organización del código.
                     </p>
-
                     <p>
                         Mi camino está inspirado en mujeres históricas como <strong>Ada Lovelace</strong>, pionera de la programación, y <strong>Grace Hopper</strong>, creadora de lenguajes que marcaron la industria; así como en referentes contemporáneas como <strong>Reshma Saujani</strong>, fundadora de Girls Who Code, y <strong>Fei-Fei Li</strong>, líder en inteligencia artificial.
                     </p>
                 </article>
 
                 <div class="contenedor-img">
-                    <img src="mujeres-tech.png"
-                         alt="Mujeres referentes en tecnología"
-                         loading="lazy"
-                         decoding="async">
+                    <img src="oldtech.png" alt="Mujeres referentes en tecnología">
                 </div>
             </div>
 
             <aside class="tarjeta-interna variante-1 modulo-video">
                 <h3>Charla inspiradora de Reshma Saujani</h3>
-
                 <div class="video-contenedor">
                     <iframe
                         src="https://www.youtube.com/embed/JAeA1hQ_vgk"
@@ -75,7 +66,6 @@
 
         <section id="formacion" class="bloque">
             <h2>Formación</h2>
-
             <div class="contenido-flex">
                 <article class="tarjeta-interna variante-1">
                     <p>
@@ -84,7 +74,6 @@
                 </article>
 
                 <article class="tarjeta-interna variante-3">
-                    <h3>Mi formación incluye:</h3>
                     <ul>
                         <li>Lógica de programación</li>
                         <li>Lenguajes: C++, C#, HTML</li>
@@ -94,9 +83,8 @@
                 </article>
             </div>
 
-            <article class="tarjeta-interna variante-1 contenedor-tabla">
+            <article class="tarjeta-interna variante-1">
                 <h3>Habilidades</h3>
-
                 <table>
                     <thead>
                         <tr>
@@ -105,7 +93,6 @@
                             <th>Año</th>
                         </tr>
                     </thead>
-
                     <tbody>
                         <tr>
                             <td>C#</td>
@@ -122,7 +109,7 @@
                         </tr>
                         <tr>
                             <td>HTML</td>
-                            <td>Básico</td>
+                            <td>Intermedio</td>
                             <td>2026</td>
                         </tr>
                     </tbody>
@@ -132,7 +119,6 @@
 
         <section id="proyectos" class="bloque">
             <h2>Proyectos</h2>
-
             <div class="tarjeta-interna variante-1">
                 <p>
                     Me encuentro desarrollando proyectos personales orientados a la práctica y consolidación de conocimientos en programación. Estos proyectos están enfocados en la aplicación de lógica, estructuración de código y desarrollo de soluciones funcionales.
@@ -140,31 +126,28 @@
             </div>
 
             <div class="contenido-flex">
-                <article class="tarjeta-interna proyecto-click variante-2">
+                <article class="tarjeta-interna variante-2">
                     <h3>Lógica</h3>
                     <p>Aplicación de estructuras de datos y algoritmos eficientes.</p>
                 </article>
 
-                <article class="tarjeta-interna proyecto-click variante-3">
+                <article class="tarjeta-interna variante-3">
                     <h3>Interfaces</h3>
                     <p>Desarrollo de entornos funcionales, intuitivos y claros.</p>
                 </article>
 
-                <article class="tarjeta-interna proyecto-click variante-1">
+                <article class="tarjeta-interna variante-1">
                     <h3>Clean Code</h3>
                     <p>Organización, legibilidad y mantenimiento óptimo del código.</p>
                 </article>
             </div>
         </section>
-    </main>
-
-    <footer role="contentinfo">
-        <p>
-            Para más información:
-            <a href="contacto.html">Formulario de contacto</a>
-        </p>
-
-        <a href="#inicio">Volver al inicio</a>
-    </footer>
+    </main>>
+<footer role="contentinfo">
+    <p>
+        Para más información:
+        <a href="contacto.html" class="btn">Formulario de contacto</a> <!-- Clase añadida aquí -->
+    </p>
+    <a href="#inicio">Volver al inicio</a>
 </body>
 </html>

@@ -2,45 +2,138 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Contacto</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Lara Navarro</title>
+    <link rel="shortcut icon"
+          href="alpha_l_box_icon_138962.png"
+          type="image/x-icon">
+    <link rel="stylesheet"
+          href="style.css">
 </head>
-
 <body>
-
-<main>
-    <h2>Contacto:</h2>
-
-    <form action="#" method="post">
-
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre"><br><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-
-        <label for="mensaje">Mensaje:</label><br>
-        <textarea id="mensaje" name="mensaje"></textarea><br><br>
-
-        <button type="submit">Enviar</button>
-
-    </form>
-
-    <br>
-
-    <footer id="contacto">
-        <address>
-            Email: navarrolara.m1@gmail.com <br>
-            GitHub: <a href="#">https://github.com/navarrolaram1-alt</a> <br>
-            LinkedIn: <a href="#">www.linkedin.com/in/lara-micaela-navarro-25603a218</a>
-        </address>
-    </footer>
-
-    <br>
-
-    <a href="index.html">home</a>
-
-</main>
-
+    <header>
+        <h1>Contacto</h1>
+        <p class="hero-tagline">
+            Gracias por visitar mi portfolio
+        </p>
+    </header>
+    <main>
+        <section class="bloque">
+            <h2>Formulario de contacto</h2>
+            <p>
+                Si deseas comunicarte conmigo para consultas,
+                propuestas de trabajo o proyectos colaborativos,
+                puedes completar el siguiente formulario.
+            </p>
+            <form action="#">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre completo</label><br>
+                    <input type="text"
+                           id="nombre"
+                           name="nombre"
+                           placeholder="Ingrese su nombre"
+                           required>
+                    <br><br>
+                    <label for="email">Correo electrónico</label><br>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="Ingrese su correo"
+                           required>
+                    <br><br>
+                    <label for="telefono">Teléfono</label><br>
+                    <input type="tel"
+                           id="telefono"
+                           name="telefono"
+                           placeholder="Ingrese su teléfono">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Consulta</legend>
+                    <label for="motivo">
+                        Motivo de contacto
+                    </label>
+                    <br>
+                    <select id="motivo"
+                            name="motivo">
+                        <option value="consulta">
+                            Consulta general
+                        </option>
+                        <option value="proyecto">
+                            Proyecto
+                        </option>
+                        <option value="empleo">
+                            Oportunidad laboral
+                        </option>
+                        <option value="colaboracion">
+                            Colaboración
+                        </option>
+                    </select>
+                    <br><br>
+                    <label>
+                        Modalidad preferida
+                    </label>
+                    <br>
+                    <input type="radio"
+                           id="online"
+                           name="modalidad"
+                           value="online">
+                    <label for="online">
+                        Online
+                    </label>
+                    <br>
+                    <input type="radio"
+                           id="presencial"
+                           name="modalidad"
+                           value="presencial">
+                    <label for="presencial">
+                        Presencial
+                    </label>
+                    <br><br>
+                    <label>
+                        Temas de interés
+                    </label>
+                    <br>
+                    <input type="checkbox"
+                           id="frontend">
+                    <label for="frontend">
+                        Front-End
+                    </label>
+                    <br>
+                    <input type="checkbox"
+                           id="backend">
+                    <label for="backend">
+                        Back-End
+                    </label>
+                    <br>
+                    <input type="checkbox"
+                           id="bases">
+                    <label for="bases">
+                        Bases de datos
+                    </label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Mensaje</legend>
+                    <label for="mensaje">
+                        Comentarios
+                    </label>
+                    <br>
+                    <textarea id="mensaje"
+                              name="mensaje"
+                              rows="6"
+                              maxlength="300"
+                              placeholder="Escriba aquí su mensaje"></textarea>
+                </fieldset>
+                <br>
+                <input type="submit"
+                       value="Enviar">
+                <input type="reset"
+                       value="Limpiar">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
