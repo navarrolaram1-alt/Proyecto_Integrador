@@ -15,17 +15,18 @@ Este proyecto consiste en el desarrollo de un portfolio personal realizado como 
 ## Funcionalidades implementadas
 
 - Navegación entre secciones del portfolio.
-- Sección de proyectos generada dinámicamente con JavaScript.
+- Sección de proyectos generada dinámicamente con JavaScript a partir de un array.
+- Buscador/filtro de proyectos por nombre, con mensaje de resultados en pantalla.
 - Formulario de contacto con validación de campos obligatorios.
 - Verificación del formato del correo electrónico.
 - Contador de caracteres en el campo de mensaje.
-- Manipulación del DOM mediante la creación y modificación de elementos.
+- Manipulación del DOM mediante la creación, modificación y ocultamiento de elementos.
 - Manejo de errores utilizando `try...catch`.
 
 ## Conceptos de JavaScript aplicados
 
-- Funciones.
-- Eventos (`click`, `submit` e `input`).
+- Funciones (`mostrarProyectos`, `filtrarProyectos`, `validarFormulario`, `contarCaracteres`).
+- Eventos (`click`, `keyup`, `submit` e `input`).
 - Arrays.
 - Manipulación del DOM.
 - Validaciones.
@@ -41,3 +42,8 @@ Proyecto_Integrador/
 ├── style.css
 ├── script.js
 └── README.md
+```
+
+## Repositorio
+
+Enlace al repositorio: https://github.com/navarrolaram1-alt/Proyecto_Integrador

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lara Navarro</title>
+    <link rel="shortcut icon" href="letra-l.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header id="inicio">
+        <div class="hero-header">
+            <h1>Lara Navarro</h1>
+            <p class="hero-tagline">Desarrolladora full stack en formación</p>
+        </div>
+    </header>
+
+    <nav class="grilla-tarjetas" aria-label="Navegación principal">
+        <a href="#sobre" class="tarjeta tarjeta-1" aria-label="Ir a Sobre mí">
+            <span>Sobre mí</span>
+        </a>
+        <a href="#formacion" class="tarjeta tarjeta-2" aria-label="Ir a Formación">
+            <span>Formación</span>
+        </a>
+        <a href="#proyectos" class="tarjeta tarjeta-3" aria-label="Ir a Proyectos">
+            <span>Proyectos</span>
+        </a>
+        <a href="contacto.html" class="tarjeta tarjeta-4" aria-label="Ir a Contacto">
+            <span>Contacto</span>
+        </a>
+    </nav>
+  
+    <main>
+        <section id="sobre" class="bloque">
+            <h2>Sobre mí</h2>
+            <div class="contenido-flex">
+                <article class="tarjeta-interna variante-1">
+                    <p>
+                        Soy desarrolladora en formación con orientación al desarrollo full stack, con interés tanto en el diseño de interfaces como en la lógica y estructura de aplicaciones. Me interesa construir soluciones funcionales y claras, así como profundizar en el manejo de bases de datos y la organización del código.
+                    </p>
+                    <p>
+                        Mi camino está inspirado en mujeres históricas como <strong>Ada Lovelace</strong>, pionera de la programación, y <strong>Grace Hopper</strong>, creadora de lenguajes que marcaron la industria; así como en referentes contemporáneas como <strong>Reshma Saujani</strong>, fundadora de Girls Who Code, y <strong>Fei-Fei Li</strong>, líder en inteligencia artificial.
+                    </p>
+                </article>
+
+                <div class="contenedor-img">
+                    <img src="oldtech.png" alt="Mujeres referentes en tecnología">
+                </div>
+            </div>
+
+            <aside class="tarjeta-interna variante-1 modulo-video">
+                <h3>Charla inspiradora de Reshma Saujani</h3>
+                <div class="video-contenedor">
+                    <iframe
+                        src="https://www.youtube.com/embed/JAeA1hQ_vgk"
+                        title="No puedes ser lo que no puedes ver | Reshma Saujani"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </aside>
+        </section>
+
+        <section id="formacion" class="bloque">
+            <h2>Formación</h2>
+            <div class="contenido-flex">
+                <article class="tarjeta-interna variante-1">
+                    <p>
+                        Curso la Tecnicatura Universitaria en Programación en la UTN, donde desarrollo bases sólidas en lógica de programación y resolución de problemas.
+                    </p>
+                </article>
+
+                <article class="tarjeta-interna variante-3">
+                    <ul>
+                        <li>Lógica de programación</li>
+                        <li>Lenguajes: C++, C#, HTML</li>
+                        <li>Bases de datos: SQL</li>
+                        <li>Formación complementaria en C# (Microsoft)</li>
+                    </ul>
+                </article>
+            </div>
+
+            <article class="tarjeta-interna variante-1">
+                <h3>Habilidades</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Habilidad</th>
+                            <th>Nivel</th>
+                            <th>Año</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>C#</td>
+                            <td>Intermedio</td>
+                            <td rowspan="3">2025</td>
+                        </tr>
+                        <tr>
+                            <td>C++</td>
+                            <td>Intermedio</td>
+                        </tr>
+                        <tr>
+                            <td>SQL</td>
+                            <td>Intermedio</td>
+                        </tr>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Intermedio</td>
+                            <td>2026</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+
+        <section id="proyectos" class="bloque">
+            <h2>Proyectos</h2>
+            <div class="tarjeta-interna variante-1">
+                
+
+<div id="contenedorProyectos"></div>
+                <p>
+                    Me encuentro desarrollando proyectos personales orientados a la práctica y consolidación de conocimientos en programación. Estos proyectos están enfocados en la aplicación de lógica, estructuración de código y desarrollo de soluciones funcionales.
+                </p>
+            </div>
+
+            <div class="contenido-flex">
+                <article class="tarjeta-interna variante-2">
+                    <h3>Lógica</h3>
+                    <p>Aplicación de estructuras de datos y algoritmos eficientes.</p>
+                </article>
+
+                <article class="tarjeta-interna variante-3">
+                    <h3>Interfaces</h3>
+                    <p>Desarrollo de entornos funcionales, intuitivos y claros.</p>
+                </article>
+
+                <article class="tarjeta-interna variante-1">
+                    <h3>Clean Code</h3>
+                    <p>Organización, legibilidad y mantenimiento óptimo del código.</p>
+                </article>
+            </div>
+        </section>
+    </main>>
+<footer role="contentinfo">
+    <p>
+        Para más información:
+        <a href="contacto.html" class="btn">Formulario de contacto</a> <!-- Clase añadida aquí -->
+    </p>
+    <a href="#inicio">Volver al inicio</a>
+</body>
+</html>
